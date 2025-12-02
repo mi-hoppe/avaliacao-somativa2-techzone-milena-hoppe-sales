@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  font-family: "Domine", Serif;
+  background: linear-gradient(135deg, #0f4582);
+  text-align: center;
+  padding: 3rem;
+  color: rgb(9, 9, 9);
+}
+
+nav ul {
+  background: linear-gradient(135deg, rgb(41, 89, 144));
+  text-align: center;
+  padding: 1;
+  color: rgb(9, 9, 9);
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Domine", Serif;
+}
+
+nav li {
+  margin: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 251, 251);
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+
+
+main section {
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(223, 223, 223);
+}
+
+.content-wrapper {
+  position: relative;
+}
+
+h2+h3 {
+  margin-top: 1rem;
+  font-family: "Domine", Serif;
+
+}
+
+p {
+  margin-top: 1rem;
+}
+
+#hero img {
+  width: 100%;
+  max-width: 50%;
+  margin-top: 4.5rem;
+  border-radius: 0px;
+}
+
+grid-cards {
+  display: grid;
+  gap: 10px;
+  margin-top: 26px;
+
+
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card {
+  background-color: #7cb1ea;
+  color: white;
+  padding: 10px;
+  border-radius: 9px;
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+}
+
+
+
+footer {
+  background: linear-gradient(135deg, #0f4582);
+  text-align: center;
+  padding: 1rem;
+  color: rgb(24, 1, 1);
+
+}
+
+.container {
+  padding: 40px;
+  margin-bottom: 0px;
+
+}
+
+
+img {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 4.5rem;
+  border-radius: 0px;
+}
+
+aside {
+  margin-top: 2rem;
+}
+
+#hero aside {
+  align-self: center;
+  width: 80%;
+  max-width: 50%;
+  border-collapse: collapse;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.header {
+  grid-area: header;
+  background-color: #0f4582;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+.sidebar {
+  grid-area: aside;
+  background-color: #0f4582;
+  padding: 30px;
+  align-self: start;
+}
+
+/* */
